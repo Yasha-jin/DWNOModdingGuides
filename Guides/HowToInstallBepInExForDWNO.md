@@ -2,13 +2,12 @@
 
 ## Step 1
 
-Get the latest version of BepInEx Bleeding Edge here : [BepInEx Bleeding Edge](https://builds.bepinex.dev/projects/bepinex_be)
+Get the latest version of BepInEx Bleeding Edge here (READ WHAT'S BELOW TO KNOW WHAT TO DOWNLOAD!!!!!) : [BepInEx Bleeding Edge](https://builds.bepinex.dev/projects/bepinex_be)
 
 Simply click on the first button below "Artifacts", it will drop a list of all downloads link for different OS.
+If you are on linux/steam deck, use the windows version.
 
-DWNO is made using Unity IL2CPP, so you'll click on one that precise those.
-
-For Windows, you would click on that button :
+You'll need to click on one that start with "BepInEx-Unity.IL2CPP-win-x64" :
 
 ![](Assets/BepInExWindowsVersion.png)
 *Tag at the end (6.0.0-be.667+6b500b3) might be different for you, as that indicate the version.*
@@ -27,6 +26,10 @@ Now that you are in DWNO's directory, open the .zip you downloaded, and simply d
 After moving the files, your directory should now looks like this :
 
 ![](Assets/DWNODirFinal.png)
+
+## Step 2.5 (Only for Linux/Steam Deck users)
+Go in the properties of the game on steam, in the General category under "Launch Options", add the following line:
+`WINEDLLOVERRIDES="winhttp.dll=n,b" %command%`
 
 ## Step 3
 
